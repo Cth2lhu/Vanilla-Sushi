@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "vsushi",
+  "version": "${version}",
+
+  "name": "Vanilla Sushi",
+  "description": "Adds sushi w/o altering world gen",
+  "authors": [],
+  "contact": {},
+
+  "license": "BSD 2-Clause (FreeBSD) License",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cth2.vsushi.vsushi.fabric.VanillaSushiFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.19.4"
+  }
+}
